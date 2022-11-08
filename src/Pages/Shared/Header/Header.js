@@ -7,8 +7,8 @@ const Header = () => {
 
     const navItem = <>
         <li className='font-bold'><Link to='/'>Home</Link></li>
-        <li className='font-bold'><Link to='/'>Home</Link></li>
-        <li className='font-bold'><Link to='/'>Home</Link></li>
+        <li className='font-bold'><Link to='/'>Services</Link></li>
+        <li className='font-bold'><Link to='/'>Blog</Link></li>
 
     </>
 
@@ -35,6 +35,9 @@ const Header = () => {
             </div>
             <div className="navbar-end">
                 <button className="btn btn-primary">Order</button>
+                <ul className="btn btn-ghost normal-case ">
+                    <li className='font-bold '><Link to='/login'>Login</Link></li>
+                </ul>
             </div>
         </div>
     );
