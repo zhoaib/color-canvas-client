@@ -7,7 +7,7 @@ const Header = () => {
 
     const navItem = <>
         <li className='font-bold'><Link to='/'>Home</Link></li>
-        <li className='font-bold'><Link to='/'>Services</Link></li>
+        <li className='font-bold'><Link to='/allservices'>Services</Link></li>
         <li className='font-bold'><Link to='/'>Blog</Link></li>
 
     </>
