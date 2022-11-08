@@ -1,41 +1,35 @@
 [
     {
-        "_id": "1",
         "picture": " https://scontent.fdac99-1.fna.fbcdn.net/v/t1.6435-9/62551250_2224672814269250_3008074916638490624_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=0OYaiCxs_KgAX9c4rNt&_nc_ht=scontent.fdac99-1.fna&oh=00_AfBEpMu_sm44hOFd3L4tXNO0XKFEROtgwWw25tyFvaDwJQ&oe=6391BD14",
         "price": 16000,
         "name": "Economy ",
         "details": " In this economy package you will get a Senior photographer and a Cinematographer to fulfill your needs, with full light setup and unlimited photos (all post processed). The video quality will be full HD. You will have the photos and the videos in a DVD. 50 special edited photo, 1.00-2.30 minute’s promo of full event and 50 printed photos (4R). Working duration will be 5 hours."
     },
     {
-        "_id": "2",
         "picture": "https://scontent.fdac99-1.fna.fbcdn.net/v/t1.6435-9/63867429_2224672024269329_7215391903041191936_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=i-ARajBxxXwAX94nyKI&tn=dIR9F62kc39JLOi9&_nc_ht=scontent.fdac99-1.fna&oh=00_AfDp9CMcLbRdboM0yqICpklisWlBj2RF8Q9R4hGOX-cMIg&oe=6391BA20",
         "price": 17000,
         "name": "Basic Pack ",
         "details": "In this basic package you will get two Senior photographer and a Cinematographer to fulfill your needs, with full light setup and unlimited photos (all post processed). The video quality will be full HD. You will have the photos and the videos in a DVD. 50 special edited photo, 2.00-2.30 minute’s promo of full event and 50 printed photos (4R). Working duration will be 5 hours."
     },
     {
-        "_id": "3",
         "picture": " https://scontent.fdac99-1.fna.fbcdn.net/v/t1.6435-9/62502815_2224672274269304_6857178225961861120_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=Nw5ug4_9pngAX9TzWG1&_nc_ht=scontent.fdac99-1.fna&oh=00_AfDAqiXlFHWNSktH_kFQiD_2YT3sz7ztHXIaJvkveHuk9A&oe=6391A10C",
         "price": 29000,
         "name": "Standard Pack ",
         "details": " In this standard package you will get two Senior photographer and two Cinematographer to fulfill your needs, with full light setup and unlimited photos (all post processed). The video quality will be full HD. You will have the photos and the videos in a DVD. 50 special edited photo, 2.00-2.30 minute’s promo of full event and 50 printed photos (4R). Working duration will be 5 hours."
     },
     {
-        "_id": "4",
         "picture": " https://scontent.fdac99-1.fna.fbcdn.net/v/t1.6435-9/64432127_2224672387602626_6112385490441207808_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=eMx08qy5AycAX8GCt9o&_nc_ht=scontent.fdac99-1.fna&oh=00_AfAs1vKK6qHnn5HuDLQ81dBiulM3cUoIUJepbOZWg__Tpg&oe=6391B114",
         "price": 58000,
         "name": "Premium Pack ",
         "details": " In this premium package you will get two Senior photographers, three top photographers, 1 senior cinematographer and two top Cinematographer to fulfill your needs, with full light setup and unlimited photos (all post processed). The video quality will be full HD. You will have the photos and the videos in a DVD. 50 special edited photo, 2.00-2.30 minute’s promo of full event and 50 printed photos (4R). Working duration will be 5 hours."
     },
     {
-        "_id": "5",
         "picture": "https://scontent.fdac99-1.fna.fbcdn.net/v/t1.6435-9/63985099_2224673760935822_8013744293787205632_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=HaLTb6X7ZGAAX9aFl_9&_nc_ht=scontent.fdac99-1.fna&oh=00_AfD9iz28u-VbyVsfUsni8-mgzxF8_pSqTzgklHLHr884ZA&oe=6391B11B",
         "price": 45000,
         "name": "Signature Pack ",
         "details": "2 Hours Exclusive Photoshoot of Bride and Groom. In this signature package you will get two Senior photographer and two Cinematographer to fulfill your needs, with full light setup and unlimited photos (all post processed). The video quality will be full HD. You will have the photos and the videos in a DVD. 50 special edited photo, 2.00-2.30 minute’s promo of full event and 50 printed photos (4R). Working duration will be 5 hours. "
     },
     {
-        "_id": "6",
         "picture": " https://scontent.fdac99-1.fna.fbcdn.net/v/t1.6435-9/62576980_2224672650935933_143128870311165952_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=cDQwaO0sY_MAX8FA7NH&_nc_ht=scontent.fdac99-1.fna&oh=00_AfAlFbosBrDt8IGgEJOSBGNhqvee_R_IUHXKEYflU7HRFw&oe=6391A934",
         "price": 135000,
         "name": "Story Telling Pack ",
