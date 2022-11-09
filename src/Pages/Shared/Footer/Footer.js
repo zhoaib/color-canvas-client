@@ -8,7 +8,7 @@ const Footer = () => {
             <div>
                 <img src={logo} alt="" />
                 <p className="font-bold">
-                    ACME Industries Ltd. <br />Providing reliable tech since 1992
+                    COLOR CANVAS <br />Let The Colors Make Your Frame
                 </p>
                 <p>Copyright © 2022 - All right reserved</p>
             </div>
