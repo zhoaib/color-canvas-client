@@ -4,6 +4,7 @@ import AddService from "../../Pages/AddService/AddService";
 import AllServices from "../../Pages/AllServices/AllServices";
 import Blog from "../../Pages/Blog/Blog";
 import Home from "../../Pages/Home/Home/Home";
+import ServiceCardDetails from "../../Pages/Home/Services/ServiceCardDetails";
 import Login from "../../Pages/Login/Login";
 import NotFound from "../../Pages/NotFound/NotFound";
 import SignUp from "../../Pages/SignUp/SignUp";
@@ -34,9 +35,15 @@ const router = createBrowserRouter([
                 element: <SignUp></SignUp>
             },
             {
-                path: '/addservice',
-                element: <AddService></AddService>
+                path: '/addservice/:id',
+                element: <AddService></AddService>,
+                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
 
+            },
+            {
+                path: '/servicecarddetails/:id',
+                element: <ServiceCardDetails></ServiceCardDetails>,
+                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
             },
             {
                 path: '*',

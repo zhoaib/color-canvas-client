@@ -1,9 +1,11 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 const AddService = () => {
+    const { name } = useLoaderData();
     return (
         <div>
-            <h2>this is add service</h2>
+            <h2>{name}</h2>
         </div>
     );
 };
