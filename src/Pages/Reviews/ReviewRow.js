@@ -20,8 +20,8 @@ const ReviewRow = ({ review, handleDelete, handleMessageUpdate }) => {
                     <div className="avatar">
                         <div className="mask mask-squircle rounded-lg w-12 h-12">
                             {
-                                reviewService?.img &&
-                                <img src={reviewService.img} alt="Avatar Tailwind CSS Component" />
+                                reviewService?.picture &&
+                                <img src={reviewService.picture} alt="Avatar Tailwind CSS Component" />
                             }
                         </div>
                     </div>

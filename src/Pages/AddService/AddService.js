@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 
 const AddService = () => {
-    const { name, _id, price } = useLoaderData();
+    const { name, _id, price, picture } = useLoaderData();
     const { user } = useContext(AuthContext);
 
     const handleReview = event => {
@@ -45,6 +45,11 @@ const AddService = () => {
         <div className='bg-base-200 mb-10 rounded-lg'>
             <form onSubmit={handleReview}>
                 <h2 className='text-2xl text-center py-5'>Please add a review about our {name} </h2>
+                <div>
+                    <div className="card card-compact w-96 bg-base-100 shadow-xl mx-auto rounded-2xl">
+                        <figure><img src={picture} alt="Shoes" /></figure>
+                    </div>
+                </div>
                 <input name='cname' type="text" placeholder="Your Name" className="input input-bordered w-full my-3 " />
                 <input name='email' type="text" defaultValue={user?.email} placeholder="Your Email" className="input input-bordered w-full my-3" readOnly />
                 <textarea name='message' className="textarea textarea-bordered w-full my-3" placeholder="Your Review"></textarea>

@@ -26,9 +26,7 @@ const ServiceCardDetails = () => {
                 </div>
             </div>
 
-            <div>
-                <AddService></AddService>
-            </div>
+
         </div>
     );
 };

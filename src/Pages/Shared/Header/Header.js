@@ -5,7 +5,13 @@ import { AuthContext } from '../../../context/AuthProvider/AuthProvider';
 
 
 const Header = () => {
-    const { user } = useContext(AuthContext);
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut()
+            .then()
+            .catch()
+    }
 
     const navItem = <>
         <li className='font-bold'><Link to='/'>Home</Link></li>
@@ -42,6 +48,7 @@ const Header = () => {
                             <>
                                 <li className='font-bold btn btn-ghost'><Link to='/reviews'>My Reviews</Link></li>
                                 <li className='font-bold btn btn-ghost'><Link>My Cart</Link></li>
+                                <button onClick={handleLogOut} className='font-bold btn btn-ghost'><Link>Sign Out</Link></button>
                             </>
                             :
                             <li className='font-bold '><Link to='/login'>Login</Link></li>
