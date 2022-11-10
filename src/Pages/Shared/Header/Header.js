@@ -36,11 +36,12 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <ul className="btn btn-ghost normal-case ">
+                <ul className=" normal-case ">
                     {
                         user?.email ?
                             <>
-                                <li className='font-bold '><Link to='/reviews'>My Reviews</Link></li>
+                                <li className='font-bold btn btn-ghost'><Link to='/reviews'>My Reviews</Link></li>
+                                <li className='font-bold btn btn-ghost'><Link>My Cart</Link></li>
                             </>
                             :
                             <li className='font-bold '><Link to='/login'>Login</Link></li>

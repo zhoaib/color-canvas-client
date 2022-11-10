@@ -6,6 +6,7 @@ import Blog from "../../Pages/Blog/Blog";
 import Home from "../../Pages/Home/Home/Home";
 import ServiceCardDetails from "../../Pages/Home/Services/ServiceCardDetails";
 import Login from "../../Pages/Login/Login";
+import MyCart from "../../Pages/MyCart/MyCart";
 import NotFound from "../../Pages/NotFound/NotFound";
 import Reviews from "../../Pages/Reviews/Reviews";
 import SignUp from "../../Pages/SignUp/SignUp";
@@ -49,6 +50,12 @@ const router = createBrowserRouter([
             {
                 path: '/reviews',
                 element: <Reviews></Reviews>
+            },
+            {
+                path: '/mycart/:id',
+                element: <MyCart></MyCart>,
+                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+
             },
             {
                 path: '*',
