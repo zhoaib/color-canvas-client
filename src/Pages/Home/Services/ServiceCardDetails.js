@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
-import AddService from '../../AddService/AddService';
+
 
 const ServiceCardDetails = () => {
     const { name, picture, details, price, _id } = useLoaderData();

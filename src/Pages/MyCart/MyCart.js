@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 
 const MyCart = () => {
-    const { name, picture, details, price, _id } = useLoaderData();
+    const { name, picture, details, price, } = useLoaderData();
     return (
         <div>
             <h2 className='text-3xl text-center py-10'>You have added the {name}</h2>

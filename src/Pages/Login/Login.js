@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import loginImg from '../../assets/login.jpg'
 import { AuthContext } from '../../context/AuthProvider/AuthProvider';
+import useTitle from '../../hooks/useTitle';
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 const Login = () => {
@@ -9,7 +10,7 @@ const Login = () => {
     const { login } = useContext(AuthContext);
     const location = useLocation();
     const navigate = useNavigate();
-
+    useTitle('Login')
     const from = location.state?.from?.pathname || '/';
 
     const handleLogin = event => {
