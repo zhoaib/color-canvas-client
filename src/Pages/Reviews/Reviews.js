@@ -15,12 +15,12 @@ const Reviews = () => {
         })
             .then(res => {
                 if (res.status === 401 || res.status === 403) {
-                    logOut()
+                    return logOut();
                 }
-                return res.json()
+                return res.json();
             })
-            .then(data => setReviews(data))
-    }, [user?.email])
+            .then(data => setReviews(data));
+    }, [user?.email, logOut])
 
     const handleDelete = id => {
         const proceed = window.confirm('You want to remove this review?');
@@ -30,7 +30,7 @@ const Reviews = () => {
             })
                 .then(res => res.json())
                 .then(data => {
-                    console.log(data);
+
                     if (data.deletedCount > 0) {
                         alert('Delete Successfully');
                         const remaining = reviews.filter(rev => rev._id !== id);
