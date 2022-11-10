@@ -40,13 +40,13 @@ const router = createBrowserRouter([
             {
                 path: '/addservice/:id',
                 element: <PrivateRoute><AddService></AddService></PrivateRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://color-canvas-server.vercel.app/services/${params.id}`)
 
             },
             {
                 path: '/servicecarddetails/:id',
                 element: <ServiceCardDetails></ServiceCardDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://color-canvas-server.vercel.app/services/${params.id}`)
             },
             {
                 path: '/reviews',
@@ -55,7 +55,7 @@ const router = createBrowserRouter([
             {
                 path: '/mycart/:id',
                 element: <MyCart></MyCart>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://color-canvas-server.vercel.app/services/${params.id}`)
 
             },
             {
