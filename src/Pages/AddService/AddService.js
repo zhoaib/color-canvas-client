@@ -20,6 +20,8 @@ const AddService = () => {
             customer: cname,
             email,
             message,
+
+
         }
         fetch('http://localhost:5000/reviews', {
             method: 'POST',
